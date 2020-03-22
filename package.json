@@ -1,0 +1,27 @@
+{
+  "name": "PracticaTema1",
+  "version": "1.0.0",
+  "description": "Practica Tema 1. (segunda parte de DSI)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server src",
+    "clean": "rm -rf dist package-lock.json node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html --no-source-maps --detailed-report",
+    "servidor": "parcel src/index.html" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoNuezWehbe/EduardoNuezWehbe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoNuezWehbe/EduardoNuezWehbe/issues"
+  },
+  "homepage": "https://github.com/EduardoNuezWehbe/EduardoNuezWehbe#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
