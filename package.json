@@ -8,7 +8,7 @@
     "clean": "rm -rf dist package-lock.json node_modules",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build src/index.html --no-source-maps --detailed-report",
-    "buildgh": "parcel build src/index.html --public-url EduardoNuezWehbe -d build",
+    "buildgh": "parcel build src/index.html --public-url EduardoNuezWehbe -d build --no-source-maps --detailed-report",
     "servidor": "parcel src/index.html --open",
     "deploy": "npx gh-pages -d build"
   },
